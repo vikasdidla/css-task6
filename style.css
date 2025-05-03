@@ -1,0 +1,86 @@
+.image1{
+    height: 250px;
+    width:300px;
+}
+.image2{
+    height:250px;
+    width:300px;
+    padding-left: 30%;
+}
+.image1:hover{
+    height:500px;
+    width: 600px;
+}
+.image2:hover{
+    height:500px;
+    width: 600px;
+}
+a:link{
+    color:gold;  
+}
+a:visited{
+    color: darkorange;
+}
+a:hover{
+    color: deeppink;
+}
+a:active{
+    color: darkcyan;
+}
+a{
+    font-size: 30px;
+}
+body{
+    text-align: center;
+    background-color:rgb(210, 208, 208);
+    
+
+}
+p:first-child{
+     color: blueviolet;
+     font-style: italic;
+     font-size: xx-large;
+}
+p:last-of-type{
+    color:darkcyan;
+    
+}
+h1:first-of-type{
+    color:rgb(50, 47, 255);
+    font-style: italic;
+
+}
+.text{
+    width: 40%;
+    padding-left: 30%;
+
+}
+
+p:nth-child(even){
+    color:rgb(3, 254, 3);
+    background-color: cadetblue;
+    font-size: 30px;
+    
+}
+p:nth-child(odd){
+    color:rgb(252, 190, 19);
+    background-color:darkslategray;
+    font-size: 30px;
+    
+}
+input:hover{
+    border:5px solid rgb(20, 206, 20);
+    background-color: rgb(229, 172, 233);
+    text-decoration: solid black;
+    font-size: 20px;
+    border-radius: 20px ;  
+}
+.box{
+    background-color: rgb(232, 212, 188);
+    width: 50%;
+    margin-left: 25%;
+    padding-top:4%;
+    padding-bottom: 4%;
+    border-radius: 30px;
+}
+
